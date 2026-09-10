@@ -1,0 +1,9 @@
+# Compatible training environment used by this project.
+# Select the appropriate PyTorch wheel/index for the target CUDA platform.
+torch==2.8.0
+torchvision==0.23.0
+rfdetr[train,loggers]==1.9.4
+opencv-python-headless==4.12.0.88
+numpy==2.2.6
+scipy==1.16.1
+jupyter==1.1.1

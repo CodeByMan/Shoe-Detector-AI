@@ -1,0 +1,16 @@
+{
+  "model_path": "models/checkpoint_best_total.pth",
+  "sample_images_dir": "sample_images",
+  "categories": {
+    "0": "background",
+    "1": "Slipper",
+    "2": "Sneaker"
+  },
+  "colors": {
+    "0": [128, 128, 128],
+    "1": [255, 0, 0],
+    "2": [0, 255, 0]
+  },
+  "default_conf_threshold": 0.5,
+  "confidence_threshold": 0.1
+}

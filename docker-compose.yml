@@ -1,0 +1,23 @@
+services:
+  backend:
+    image: "${RFDETR_BACKEND_IMAGE:?Set RFDETR_BACKEND_IMAGE to a reviewed immutable image reference}"
+    container_name: rfdetr-backend
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./uploads:/app/uploads
+      - ./sample_images:/app/sample_images
+      - ./config.sample.json:/app/config.json:ro
+    environment:
+      PYTHONUNBUFFERED: "1"
+    restart: unless-stopped
+
+  frontend:
+    image: "${RFDETR_FRONTEND_IMAGE:?Set RFDETR_FRONTEND_IMAGE to a reviewed immutable image reference}"
+    container_name: rfdetr-frontend
+    ports:
+      - "127.0.0.1:3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped

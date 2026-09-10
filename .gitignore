@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+
+# Training outputs
+trained_model/
+models/
+*.pth
+*.pt
+*.onnx
+*.ckpt
+train.log
+
+# Private data
+dataset/
+data/
+input/
+output/
+uploads/
+sample_images/
+source_videos/
+coco_dataset/
+extracted_frames/
+*.MOV
+*.mov
+*.mp4
+*.zip
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
