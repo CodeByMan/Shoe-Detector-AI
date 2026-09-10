@@ -4,7 +4,7 @@
 
 A Python + Jupyter portfolio application for training and running local inference with RF-DETR Medium to detect `Slipper` and `Sneaker` objects from COCO-format image datasets.
 
-![Python](https://img.shields.io/badge/Python-3.11%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/ML-PyTorch-ee4c2c?style=for-the-badge&logo=pytorch&logoColor=white)
 ![RF-DETR](https://img.shields.io/badge/Model-RF--DETR%20Medium-7c3aed?style=for-the-badge)
 ![OpenCV](https://img.shields.io/badge/Vision-OpenCV-5c3ee8?style=for-the-badge&logo=opencv&logoColor=white)
@@ -85,7 +85,7 @@ The following values are recorded from the original private training run. They a
 ## 🧰 Tech Stack
 
 ### Training and Inference
-- Python 3.11+
+- Python 3.13+
 - PyTorch
 - RF-DETR Medium
 - OpenCV
@@ -155,7 +155,7 @@ The supplied `.env.example` intentionally leaves these values empty. Do not star
 
 ### Prerequisites
 - Windows 10 or 11
-- Python 3.11 or newer
+- Python 3.13 or newer
 - A CUDA-capable GPU is recommended for training
 - Jupyter Notebook
 - **FFmpeg** installed and added to system PATH if using `scripts/remove_audio.py`
@@ -323,7 +323,7 @@ COCO Dataset and RF-DETR Medium
 ## 🧑‍💻 Author
 
 **Muhammad Ali Nawaz**  
-Python Developer / AI Developer
+AI Developer
 
 ---
 
@@ -336,3 +336,4 @@ This project is licensed under the [MIT License](LICENSE).
 <p align="center">
   <b>⭐ If this project helps you, consider starring the repository!</b>
 </p>
+
